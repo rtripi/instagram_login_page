@@ -69,13 +69,60 @@ body {
   align-items: center;
   border-radius: 50%;
   overflow: hidden;
-  width: 10rem;
+  width: 6rem;
 }
 
 .profile-photo img {
   width: 100%;
 }
 
-.app_link img {
-  width: 8rem;
+.login {
+  background-color: #0095f6;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.remove_acc {
+  color: #0095f6;
+  margin-top: 1rem;
+}
+
+.content-signup p {
+  color: rgb(160, 160, 160);
+}
+
+.content-signup p span {
+  color: #0095f6;
+}
+
+.content-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+.app-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app_link {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.app-container a:nth-child(1) {
+  background-image: url("./img/apple_store.png");
+}
+
+.app-container a:nth-child(2) {
+  background-image: url("./img/gplay.png");
 }
